@@ -1,0 +1,112 @@
+
+@media screen and (max-width:480px){
+  .ancho{
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items: center;
+    padding-bottom: 20px;
+    
+  }
+
+  .conte_ico_menu{
+   display: block;
+  }
+  
+
+  .contenedor_menu{
+    /*border: 1px green solid;*/
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    
+    overflow: hidden;
+    display: none;
+  }
+  .contenedor_menu li{
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom:  2px #333 dotted;
+  }
+
+  .contenedor_menu li a{
+    display: block;
+    
+  }
+
+
+  .nombre{
+    margin-top: 60px;
+  }
+  
+  .nombre h1{
+    font-size: 30px;
+    
+  }
+  
+  .ico_redes a{
+    
+    margin-right: 30px;
+    text-decoration: none;
+    color: var(--celeste);
+    display: inline-block;
+    transition: all 2s ease;
+    font-size: 25px;
+    
+  }
+  .ancho_prese{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+  }
+
+  .img_per{
+    border-radius: 10px;
+    border: 2px var(--gris) dotted;
+
+  }
+  
+  .img_per img{
+
+    border-radius: 15px;
+  }
+  .tex_per{
+    
+  }
+  .info_perfil{
+   
+  }
+
+
+  .buscador h2{
+    text-align:center;
+    padding-top: 30px;
+  }
+
+  .servicios{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items:center;
+  }
+
+  .info_perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px red solid;
+  }
+
+
+  .foot_datos{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-wrap: wrap;
+  }
+}
